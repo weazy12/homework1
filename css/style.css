@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
+}
+h3 {
+  color: #fbd784;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+header{
+    
+    background: url("../img/Bg.png") no-repeat top center;
+    height: 930px;
+    width: 100%;
+    
+}
+.navbar{
+    padding-top: 55px;
+    padding-left: 320px;
+    padding-right: 320px;
+    display: flex;
+    justify-content: space-between
+}
+.navigation{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+
+}
+.nav_social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+padding-top: 170px;
+align-items: center;
+}
+.name{
+
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 750px;
+    font-size: 74px;
+    
+}
+.under_name{
+    text-align: center;
+    padding-top: 20px; ;
+    width: 800px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.btnTryForFree{
+    color: #fff;
+    margin-top: 90px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    border: none;
+    display: inline-block;
+    padding: 16px 62px;
+    cursor: pointer;
+    background-color: #2091F9;
+    border-radius: 35px; /* Закруглення куточків */
+}
